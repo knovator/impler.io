@@ -15,7 +15,7 @@
     "start:dev": "cross-env TZ=UTC nodemon",
     "precommit": "lint-staged",
     "lint": "eslint src",
-    "lint:fix": "pnpm lint -- --fix"
+    "lint:fix": "pnpm lint --fix"
   },
   "dependencies": {
     "@impler/dal": "workspace:^1.0.0",

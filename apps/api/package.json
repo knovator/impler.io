@@ -16,7 +16,7 @@
     "start:debug": "TZ=UTC nodemon --config nodemon-debug.json",
     "start:prod": "TZ=UTC node dist/main.js",
     "lint": "eslint src",
-    "lint:fix": "pnpm lint -- --fix"
+    "lint:fix": "pnpm lint --fix"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.185.0",
